@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GitHub app</title>
     <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="main">
-
-        <h2 id="welcomeMessage">Welcome to GitHub App!</h2>
-
-        <form id="github-form">
-            <input id="search" type="text" name="search">
-            <input type="submit" name="submit">
-        </form>
-
+      <h2>Welcome to GitHub App!</h2>
+      <ul id="users"></ul>
+      <form id="github-form">
+        <input id="search" type="text" placeholder="SearchUserName" name="search" class="form-control">
+        <input type="submit" name="submit">
+      </form>
     </div>
-</body>
+  </body>
 </html>
